@@ -30,34 +30,9 @@ export default {
     computed: {
         classTypes() {
             return {
-                'bodyattack': {
-                    name: 'BodyAttack',
-                    colour: '#FCC500'
+                'lead': {
+                    name: 'Lead',
                 },
-                'bodybalance': {
-                    name: 'BodyBalance',
-                    colour: '#b9d47d'
-                },
-                'bodypump': {
-                    name: 'BodyPump',
-                    colour: '#ea4851'
-                },
-                'bodyvive': {
-                    name: 'BodyVive',
-                    colour: '#752f8b'
-                },
-                'cxworx': {
-                    name: 'CXWORX',
-                    colour: '#e75204'
-                },
-                'les-mills-core': {
-                    name: 'Les Mills Core',
-                    colour: '#444444'
-                },
-                'les-mills-tone': {
-                    name: 'Les Mills Tone',
-                    colour: '#777777'
-                }
             };
         },
 

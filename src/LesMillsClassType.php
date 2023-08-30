@@ -14,7 +14,7 @@ class LesMillsClassType extends Mark
         return [
             'span', 
             HTML::mergeAttributes([
-                'class' => 'les-mills-class '.$mark->attrs->key
+                'class' => 'captns '.$mark->attrs->key
             ], $attributes),
             0 
         ];

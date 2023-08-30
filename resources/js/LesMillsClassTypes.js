@@ -14,7 +14,7 @@ export const LesMillsClassTypes = Mark.create({
     parseHTML() { 
         return [
                 {
-                    tag: "span.les-mills-class",
+                    tag: "span.captns",
                     getAttrs: (dom) => ({
                         key: dom.getAttribute('data-class')
                     })
@@ -27,7 +27,7 @@ export const LesMillsClassTypes = Mark.create({
                 "span",
                 mergeAttributes(HTMLAttributes,
                 {
-                    'class': 'les-mills-class ' + mark.attrs.key,
+                    'class': 'captns ' + mark.attrs.key,
                     'data-class': mark.attrs.key
                 }),
                 0,
